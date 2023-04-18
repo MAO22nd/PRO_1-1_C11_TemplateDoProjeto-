@@ -24,10 +24,11 @@ boy.addAnimation("JakeRunning",boyImg);
   
 // create left Boundary
 leftBoundary=createSprite(0,0,100,800);
-//leftBoundary.invisible = false;
-//leftBoundary.visible = true;
-//leftBoundary.isvisible = false;
-//leftBoundary.visible = false;
+  
+leftBoundary.invisible = false;
+leftBoundary.visible = true;
+leftBoundary.isvisible = false;
+leftBoundary.visible = false;
 
 //create right Boundary
 rightBoundary=createSprite(410,0,100,800);
