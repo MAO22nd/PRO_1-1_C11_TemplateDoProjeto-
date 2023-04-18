@@ -24,6 +24,11 @@ boy.addAnimation("JakeRunning",boyImg);
   
 // create left Boundary
 leftBoundary=createSprite(0,0,100,800);
+  leftBoundary.invisible = false;
+  leftBoundary.visible = true;
+  leftBoundary.isvisible = false;
+  leftBoundary.isvisible = false;
+  leftBoundary.visible = false;
 //leftBoundary.invisible = false;
 //leftBoundary.visible = true;
 //leftBoundary.isvisible = false;
@@ -55,7 +60,7 @@ function draw() {
     path.y = height/2;
   } */
 
-  /* if(path.y > 400 ){
+ /* if(path.y > 400 ){
     path.y = width/2;
   } */
   
