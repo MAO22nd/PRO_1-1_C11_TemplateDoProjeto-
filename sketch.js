@@ -58,6 +58,11 @@ function draw() {
   /* if(path.y > 400 ){
     path.y = width/2;
   } */
-  
+   /*  if(path.y > 400 ){
+    path.y = rightBoundary/2;
+  } */
+    /*  if(path.y > 400 ){
+    path.y = leftBoundary/2;
+  } */
   drawSprites();
 }
